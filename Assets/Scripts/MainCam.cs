@@ -13,7 +13,7 @@ public class MainCam : MonoBehaviour {
 	private Vector3 position;
 	private float distancelerp;
 	private float distance;
-	private float scrollspeed = 2.0f;
+	private float scrollspeed = 15.0f;
 	// Use this for initialization
 	void Start () {
 		distance = zoomMax;
